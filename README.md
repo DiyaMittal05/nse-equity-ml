@@ -30,7 +30,7 @@ Yahoo 1-minute ──▶ xgb_nse_trading/ --bars minute (+ FII flows)
 
 ## Running
 
-### 11-step XGBoost pipeline
+### XGBoost pipeline
 
 Two bar sizes, same 11 steps:
 
