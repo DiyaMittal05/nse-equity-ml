@@ -1,6 +1,6 @@
 # NSE Equity ML
 
-Machine-learning research on Indian equities, combining five earlier repos into one project:
+Machine-learning research on Indian equities:
 
 | Folder | What it does | Language |
 |---|---|---|
