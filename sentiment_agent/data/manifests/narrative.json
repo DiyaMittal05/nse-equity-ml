@@ -1,0 +1,16 @@
+{
+  "name": "narrative",
+  "type": "agent",
+  "universe": "both",
+  "description": "Generate natural language narrative from synthesis output",
+  "capabilities": ["summarize", "compare", "explain"],
+  "entrypoint": "src.agents.narrative_agent:run",
+  "parameters": {
+    "synthesis_report": {"type": "object", "required": true},
+    "user_query": {"type": "string", "required": true}
+  },
+  "output_schema": "str",
+  "sub_manifests": [],
+  "requires_llm": true,
+  "llm_prompt_template": "generate_narrative"
+}

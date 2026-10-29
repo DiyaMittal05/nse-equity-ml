@@ -1,0 +1,15 @@
+{
+  "name": "indicator_psu",
+  "type": "tool",
+  "universe": "psu",
+  "description": "Fetch technical indicators for PSU bank tickers",
+  "capabilities": ["fetch_indicator", "compute_signals"],
+  "entrypoint": "src.tools.indicator_tool:run",
+  "parameters": {
+    "ticker": {"type": "string", "required": true},
+    "indicator": {"type": "string", "required": true},
+    "date": {"type": "string", "required": false}
+  },
+  "output_schema": "float | series",
+  "data_source": "Data_analysis_psu/indicators/{ticker}_indicators.csv"
+}

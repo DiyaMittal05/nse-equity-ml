@@ -1,0 +1,15 @@
+{
+  "name": "macro_policy",
+  "type": "agent",
+  "universe": "both",
+  "description": "Classify macro policy headlines and map to affected sectors",
+  "capabilities": ["classify_policy", "map_to_sectors", "estimate_magnitude"],
+  "entrypoint": "src.agents.macro_policy_agent:run",
+  "parameters": {
+    "headline": {"type": "string", "required": true}
+  },
+  "output_schema": "{policy_type, affected_universe, affected_subsectors, magnitude_estimate, confidence}",
+  "sub_manifests": [],
+  "requires_llm": true,
+  "llm_prompt_template": "classify_rbi_policy"
+}

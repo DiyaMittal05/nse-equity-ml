@@ -1,0 +1,248 @@
+{
+  "companies": [
+    {
+      "ticker": "SBIN.NS",
+      "name": "State Bank of India",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["State Bank", "SBI", "SBI Bank", "State Bank of India"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "PNB.NS",
+      "name": "Punjab National Bank",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Punjab National Bank", "PNB", "Punjab Bank"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "BANKBARODA.NS",
+      "name": "Bank of Baroda",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Bank of Baroda", "Baroda Bank", "BoB"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "CANBK.NS",
+      "name": "Canara Bank",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Canara Bank", "Canara"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "UNIONBANK.NS",
+      "name": "Union Bank of India",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Union Bank", "Union Bank of India"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "BANKINDIA.NS",
+      "name": "Bank of India",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Bank of India", "BOI"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "INDIANB.NS",
+      "name": "Indian Bank",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Indian Bank"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "CENTRALBK.NS",
+      "name": "Central Bank of India",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Central Bank", "Central Bank of India"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "IOB.NS",
+      "name": "Indian Overseas Bank",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Indian Overseas Bank", "IOB"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "MAHABANK.NS",
+      "name": "Bank of Maharashtra",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Bank of Maharashtra", "Maharashtra Bank"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "PSB.NS",
+      "name": "Punjab & Sind Bank",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["Punjab and Sind Bank", "Punjab & Sind Bank", "PSB"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "UCOBANK.NS",
+      "name": "UCO Bank",
+      "sector": "Banking",
+      "sub_sector": "Public Sector Bank",
+      "aliases": ["UCO Bank", "United Commercial Bank"],
+      "universe": "psu"
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "name": "Bajaj Finance",
+      "sector": "NBFC",
+      "sub_sector": "Consumer Finance",
+      "aliases": ["Bajaj Finance", "Bajaj Finserv", "Bajaj"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "CHOLAFIN.NS",
+      "name": "Cholamandalam Investment and Finance",
+      "sector": "NBFC",
+      "sub_sector": "Consumer Finance",
+      "aliases": ["Cholamandalam", "Chola Finance", "Cholamandalam Finance"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "SHRIRAMFIN.NS",
+      "name": "Shriram Finance",
+      "sector": "NBFC",
+      "sub_sector": "Commercial Vehicle Finance",
+      "aliases": ["Shriram Finance", "Shriram"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "M&MFIN.NS",
+      "name": "Mahindra & Mahindra Financial Services",
+      "sector": "NBFC",
+      "sub_sector": "Rural Finance",
+      "aliases": ["Mahindra Finance", "M&M Finance", "MMFSL"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "LTF.NS",
+      "name": "L&T Finance",
+      "sector": "NBFC",
+      "sub_sector": "Infrastructure Finance",
+      "aliases": ["L&T Finance", "LTF", "L and T Finance"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "SBICARD.NS",
+      "name": "SBI Cards and Payment Services",
+      "sector": "NBFC",
+      "sub_sector": "Credit Cards",
+      "aliases": ["SBI Cards", "SBICard"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "MUTHOOTFIN.NS",
+      "name": "Muthoot Finance",
+      "sector": "NBFC",
+      "sub_sector": "Gold Loan",
+      "aliases": ["Muthoot Finance", "Muthoot"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "IIFL.NS",
+      "name": "IIFL Finance",
+      "sector": "NBFC",
+      "sub_sector": "Diversified Finance",
+      "aliases": ["IIFL Finance", "IIFL", "India Infoline"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "TATACAP.NS",
+      "name": "Tata Capital",
+      "sector": "NBFC",
+      "sub_sector": "Diversified Finance",
+      "aliases": ["Tata Capital", "Tata Cap"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "ABCAPITAL.NS",
+      "name": "Aditya Birla Capital",
+      "sector": "NBFC",
+      "sub_sector": "Diversified Finance",
+      "aliases": ["Aditya Birla Capital", "AB Capital", "Birla Capital"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "MUTHOOTMF.NS",
+      "name": "Muthoot Microfin",
+      "sector": "NBFC",
+      "sub_sector": "Microfinance",
+      "aliases": ["Muthoot Microfin"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "MANAPPURAM.NS",
+      "name": "Manappuram Finance",
+      "sector": "NBFC",
+      "sub_sector": "Gold Loan",
+      "aliases": ["Manappuram Finance", "Manappuram"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "CREDITACC.NS",
+      "name": "CreditAccess Grameen",
+      "sector": "NBFC",
+      "sub_sector": "Microfinance",
+      "aliases": ["CreditAccess Grameen", "Credit Access"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "FIVESTAR.NS",
+      "name": "Five-Star Business Finance",
+      "sector": "NBFC",
+      "sub_sector": "SME Finance",
+      "aliases": ["Five Star Finance", "Five-Star"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "POONAWALLA.NS",
+      "name": "Poonawalla Fincorp",
+      "sector": "NBFC",
+      "sub_sector": "Consumer Finance",
+      "aliases": ["Poonawalla Fincorp", "Poonawalla Finance"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "JIOFIN.NS",
+      "name": "Jio Financial Services",
+      "sector": "NBFC",
+      "sub_sector": "Diversified Finance",
+      "aliases": ["Jio Financial", "Jio Finance"],
+      "universe": "nbfc"
+    },
+    {
+      "ticker": "NIYOGIN.BO",
+      "name": "Niyogin Fintech",
+      "sector": "NBFC",
+      "sub_sector": "SME Finance",
+      "aliases": ["Niyogin Fintech", "Niyogin"],
+      "universe": "nbfc"
+    }
+  ],
+  "sector_betas": {
+    "Public Sector Bank": 1.2,
+    "Consumer Finance": 0.9,
+    "Commercial Vehicle Finance": 1.0,
+    "Rural Finance": 0.85,
+    "Infrastructure Finance": 0.8,
+    "Credit Cards": 0.7,
+    "Gold Loan": 0.6,
+    "Diversified Finance": 0.75,
+    "Microfinance": 0.65,
+    "SME Finance": 0.7
+  }
+}

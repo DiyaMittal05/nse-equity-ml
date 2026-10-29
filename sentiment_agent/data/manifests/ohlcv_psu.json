@@ -1,0 +1,27 @@
+{
+  "name": "ohlcv_psu",
+  "type": "tool",
+  "universe": "psu",
+  "description": "Fetch historical OHLCV prices for PSU bank tickers",
+  "capabilities": ["fetch_ohlcv", "compute_log_returns"],
+  "entrypoint": "src.tools.ohlcv_tool:run",
+  "parameters": {
+    "ticker": {
+      "type": "string",
+      "required": true,
+      "description": "Ticker symbol with .NS suffix"
+    },
+    "start_date": {
+      "type": "string",
+      "required": false,
+      "description": "YYYY-MM-DD"
+    },
+    "end_date": {
+      "type": "string",
+      "required": false,
+      "description": "YYYY-MM-DD"
+    }
+  },
+  "output_schema": "dataframe[date, open, high, low, close, volume]",
+  "data_source": "Data_analysis_psu/cleaned/{ticker}_ohlcv.csv"
+}

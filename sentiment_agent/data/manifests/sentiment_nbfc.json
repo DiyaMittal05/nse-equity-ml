@@ -1,0 +1,16 @@
+{
+  "name": "sentiment_impact_nbfc",
+  "type": "agent",
+  "universe": "nbfc",
+  "description": "Multi-stage sentiment impact scoring for NBFCs",
+  "capabilities": ["resolve_tickers", "filter_relevance", "score_impact", "sector_routing"],
+  "entrypoint": "src.agents.sentiment_impact_agent:run",
+  "parameters": {
+    "headline": {"type": "string", "required": true},
+    "tickers": {"type": "list[string]", "required": false},
+    "macro_context": {"type": "object", "required": false}
+  },
+  "output_schema": "list[{ticker, sentiment, relevance, sector_beta, impact}]",
+  "sub_manifests": ["ohlcv_nbfc", "indicator_nbfc"],
+  "requires_llm": false
+}
